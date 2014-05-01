@@ -3,6 +3,8 @@ thesis-bss
 list of matlab / octave script used on master thesis by bagustris.
 The theme of thesis is binaural sound sources separation. Pdf file is available [here]( http://www.mendeley.com/download/public/6887973/5393254001/c61cc0b8ee45c17e75481e01ee01a6a3b2ca0ac2/dl.pdf)
 
+In this thesis, I evaluated some common methods in binaural sound separation: ICA (with max likelihood estimation, ICA with Binary Mask (ICABM), binural model using phase difference channel weighting [4], and my-proposed-method FastICA with Binary Mask (FastICABM).
+
 This is the source code for underdetermined separation of instaneous speech mixtures with FastICA and binaural mask and the comparison for benchmark. 
 
 The algorithm is described in
@@ -17,10 +19,15 @@ The algorithm is described in
 [3] Hyvärinen, A., Erkki, H. 2000. Independent Component
 Analysis: Algorithm and Applications. Neural Networks, 13(4-5):411-430, 2000
 
+[4] C. Kim, K. Kumar, B. Raj, , and R. M. Stern, “Signal separation for robust
+speech recognition based on phase difference information obtained in the fre-
+quency domain,” INTERSPEECH, pp. 2495–2498, 2009.
+
 
 All files should be in the same directory. 
-The algorithm is run by calling main.m. 
-A number of parameters can be specified in main.m:
+The algorithm is run by calling each icabm.m and fasticabm.m. 
+For ICA algoritrh, can be directy run from worskpace and for PDCW can be obtained from the [source](http://www.cs.cmu.edu/~chanwook/MyAlgorithms/PDCW_IS2009/INTERSPEECH2009Package.zip).
+A number of parameters can be specified in those files.
 
 N 			Number of sources in mixture
 NFFT			DFT length
@@ -32,3 +39,6 @@ TC1			Merge finalstereo signals if correlation is above TC1
 TC2	 		Merge finalstereo and enerstereo if correlation is above TC2
 stopthresholdini	One source if condition number is above this value
 thepow			tau_E (see [1])
+
+All codes is copyrighted by its own author. The codes from me are licensed GNU/LGPL v2.
+You can change the input file by your own data.
