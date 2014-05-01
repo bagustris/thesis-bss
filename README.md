@@ -5,7 +5,7 @@ The theme of thesis is binaural sound sources separation. Pdf file is available 
 
 In this thesis, I evaluated some common methods in binaural sound separation: ICA (with max likelihood estimation, ICA with Binary Mask (ICABM), binural model using phase difference channel weighting [4], and my-proposed-method FastICA with Binary Mask (FastICABM).
 
-This is the source code for underdetermined separation of instaneous speech mixtures with FastICA and binaural mask and the comparison for benchmark. 
+This is the source code for underdetermined separation of instaneous speech mixtures with FastICA and binary mask and the comparison for benchmark. 
 
 The algorithm is described in
 
