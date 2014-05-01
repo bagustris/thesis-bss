@@ -27,18 +27,19 @@ quency domain,” INTERSPEECH, pp. 2495–2498, 2009.
 All files should be in the same directory. 
 The algorithm is run by calling each icabm.m and fasticabm.m. 
 For ICA algoritrh, can be directy run from worskpace and for PDCW can be obtained from the [source](http://www.cs.cmu.edu/~chanwook/MyAlgorithms/PDCW_IS2009/INTERSPEECH2009Package.zip).
+
 A number of parameters can be specified in those files.
 
-N 			Number of sources in mixture
-NFFT			DFT length
-winnumber		Selects window function
-k			Window length is NFFT/k
-noverlapfactor		Overlap between consecutive windows
-th 			Mask threshold?
-TC1			Merge finalstereo signals if correlation is above TC1
-TC2	 		Merge finalstereo and enerstereo if correlation is above TC2
-stopthresholdini	One source if condition number is above this value
-thepow			tau_E (see [1])
+- N 			Number of sources in mixture
+- NFFT			DFT length
+- winnumber		Selects window function
+- k			Window length is NFFT/k
+- noverlapfactor		Overlap between consecutive windows
+- th 			Mask threshold?
+- TC1			Merge finalstereo signals if correlation is above TC1
+- TC2	 		Merge finalstereo and enerstereo if correlation is above TC2
+- stopthresholdini	One source if condition number is above this value
+- thepow			tau_E (see [1])
 
 All codes is copyrighted by its own author. The codes from me are licensed GNU/LGPL v2.
 You can change the input file by your own data.
