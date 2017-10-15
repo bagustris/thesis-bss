@@ -1,7 +1,7 @@
 thesis-bss
 ==========
 list of matlab / octave script used on master thesis by bagustris.
-The theme of thesis is binaural sound sources separation. Pdf file is available [here]( http://www.mendeley.com/download/public/6887973/5393254001/c61cc0b8ee45c17e75481e01ee01a6a3b2ca0ac2/dl.pdf)
+The theme of thesis is binaural sound sources separation. Pdf file is available [here](https://www.dropbox.com/s/5wjsrrhxjw5oby3/bta_tesis_en_v16.pdf?dl=0)
 
 In this thesis, I evaluated some common methods in binaural sound separation: ICA (with max likelihood estimation, ICA with Binary Mask (ICABM), binural model using phase difference channel weighting [4], and my-proposed-method FastICA with Binary Mask (FastICABM).
 
@@ -15,13 +15,13 @@ The algorithm is described in
 [2]	Michael Syskind Pedersen, DeLiang Wang, Jan Larsen and Ulrik Kjems, Overcomplete Blind Source Separation by 
 	Combining ICA and Binary Time-Frequency Masking, IEEE International workshop on Machine 
 	Learning for Signal Processing, pp. 15-20, 2005
+	
+[3]	Hyvärinen, A., Erkki, H. 2000. Independent Component Analysis: 
+	Algorithm and Applications. Neural Networks, 13(4-5):411-430, 2000
 
-[3] Hyvärinen, A., Erkki, H. 2000. Independent Component
-Analysis: Algorithm and Applications. Neural Networks, 13(4-5):411-430, 2000
-
-[4] C. Kim, K. Kumar, B. Raj, , and R. M. Stern, “Signal separation for robust
-speech recognition based on phase difference information obtained in the fre-
-quency domain,” INTERSPEECH, pp. 2495–2498, 2009.
+[4] 	C. Kim, K. Kumar, B. Raj, , and R. M. Stern, “Signal separation for robust
+	speech recognition based on phase difference information obtained in the fre-
+	quency domain,” INTERSPEECH, pp. 2495–2498, 2009.
 
 
 All files should be in the same directory. 
@@ -31,7 +31,7 @@ For ICA algoritrh, can be directy run from worskpace and for PDCW can be obtaine
 A number of parameters can be specified in those files.
 
 - N 			Number of sources in mixture
-- NFFT			DFT length
+- NFFT 			DFT length
 - winnumber		Selects window function
 - k			Window length is NFFT/k
 - noverlapfactor		Overlap between consecutive windows
@@ -42,4 +42,4 @@ A number of parameters can be specified in those files.
 - thepow			tau_E (see [1])
 
 All codes is copyrighted by its own author. The codes from me are licensed GNU/LGPL v2.
-You can change the input file by your own data.
+Run `main.m` to get the demo. You can change the input file by your own data. 
