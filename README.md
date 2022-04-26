@@ -1,7 +1,7 @@
 thesis-bss
 ==========
-list of matlab / octave script used on master thesis by bagustris.
-The theme of thesis is binaural sound sources separation. Pdf file is available [here](https://www.dropbox.com/s/5wjsrrhxjw5oby3/bta_tesis_en_v16.pdf?dl=0)
+List of matlab / octave script used on master thesis by bagustris.
+The theme of thesis is binaural sound sources separation. Pdf file is available [here](https://www.dropbox.com/s/5wjsrrhxjw5oby3/bta_tesis_en_v16.pdf?dl=0).
 
 In this thesis, I evaluated some common methods in binaural sound separation: ICA (with max likelihood estimation, ICA with Binary Mask (ICABM), binural model using phase difference channel weighting [4], and my-proposed-method FastICA with Binary Mask (FastICABM).
 
