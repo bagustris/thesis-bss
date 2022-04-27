@@ -1,4 +1,4 @@
-Note is based on timeline
+This note is based on timeline (first to last; first appears first).
 
 ---  
 Dear Sensei,
