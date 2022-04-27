@@ -2082,7 +2082,7 @@ I would like to submit my JASSO final report. The current file saved as
 https://www.hicc.cs.kumamoto-u.ac.jp/uploads/private/120309141332/Bagus_JASSO.pdf
 I am waiting your suggestion for improvement before I submit to the GSST-JASSO.
 
-Yoroshiku onegasishimasu,  
+Yoroshiku onegaishimasu,  
 bta
 
 ---  
