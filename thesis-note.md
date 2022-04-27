@@ -269,7 +269,8 @@ About documents, I will try to reply until tomorrow noon, but I may
 reply tomorrow night.
 
 ---  
-> Dear Sensei, 
+> Dear Sensei,   
+> 	
 > I uploaded my revision in link below,
 > https://www.hicc.cs.kumamoto-u.ac.jp/uploads/private/111031144457/bta_asj_kyushu_meeting_template_v3.pdf
 >
