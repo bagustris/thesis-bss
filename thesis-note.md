@@ -69,7 +69,7 @@ When you make signals, please listen by yourself first.
 And please compare the listening impression with various indexes which
 you calculate.
 
-Yours,
+Yours,  
 tuie
 
 ---  
@@ -244,7 +244,7 @@ Definition of SNRratio should be
 
 Please check it.
 
-Yours,
+Yours,  
 tuie
 
 ---   
@@ -294,11 +294,11 @@ reply tomorrow night.
 ---  
 Dear Mr. Bagus,
 
-first of all, keep the hicc-all to share the situation across the
+First of all, keep the CC hicc-all to share the situation across the
 lab.
 
 
-about the figure, just send the source around figure.
+About the figure, just send the source around figure.
 (It seems that you reference is looking for section not figure.)
 
 for example, you can refer as the figure
@@ -341,6 +341,7 @@ Dear Sensei,
 > 1.) Yes, the observed signal from experiment has low amplitude, I think it is caused by attenuation of sound wave from source to microphones in dummy head. I try not to amplify it.
 > 2). Yes, I checked the original code and demo, it also has time shift. I
 > think this is caused by algorithm.
+	
 ---  
 Mr. Bagus,
 
@@ -409,7 +410,7 @@ by at 12F on 16:30 tomorrow afternoon.
 (This is the last chance to talk directly to you before the deadline,
  because I will be Tokyo on Nov. 4th.)
 
-Yours,
+Yours,  
 tuie @ Sendai, Japan
 
 ---  
@@ -561,8 +562,8 @@ Firstly the length of target, observed left right, result_fastica and resullt_ic
 for result_pdcw is 77599, then I make all have the same length i.e 75198 (for simulation)
 
 
-			T			Obs_left 	Obs_right	result_pdcw		result_fastica	result_icabm 	
-mag max	0.99518		1			0.9999		0.90897			0.9998			0.9998
+			T			Obs_left 	Obs_right	result_pdcw		result_fastica		result_icabm 	
+mag max			0.99518			1		0.9999		0.90897			0.9998			0.9998
 	 min		-1			-8.217		-0.8263		-0.78693		-0.5526			-0.9291
 
 
@@ -1162,6 +1163,7 @@ Please remember that
 >>
 
 tuie
+	
 ---  
 Bagus
 
@@ -1175,7 +1177,7 @@ experiments.
 
 Looking forward to having your revised draft.
 
-Yours,
+Yours,  
 tuie
 
 ---  
@@ -1194,7 +1196,7 @@ Please inform me the following;
 
 (you may reply one by one for each of part.)
 
-yours,  
+yours,   
 tuie
 
 ---  
@@ -1243,7 +1245,7 @@ Anyway, please reply my "rev-XX" comments first.
 
 I will have about 15 min.
 
-Yours,
+Yours,  
 tuie
 
 ---  
@@ -1468,7 +1470,7 @@ NEW:
 
 Looking forward to having your revised draft.
 
-yours  
+Yours,  
 tuie @ Haneda on the way to Narita.
 
 ---  
@@ -1640,7 +1642,7 @@ https://www.hicc.cs.kumamoto-u.ac.jp/uploads/private/111121142702/oita_poster_bt
 
 I show the averaged coherence in three numbers after coma to show the different.
 
-Regards,
+Regards,  
 bta
 
 ---  
@@ -1909,7 +1911,7 @@ sources and number of independent inputs (number of sensors).
 
 Looking forward to having your simulation plan.
 
-Yours,
+Yours,  
 tuie@ TENCON2011 venue in Bali, Indonesia
 
 ---  
@@ -1957,7 +1959,7 @@ Effect of Over sampling to spatial aliasing
 Menambahkan Gammatone Filter pada FDBM
 
 
-OLA=overlapped
+OLA=overlapped add
 
 ---  
 Dear sensei,
@@ -1992,8 +1994,8 @@ to the committee.
 3) Put the line break before second = in Eq.(6) and Eq.(7).
 
 
-FYI,  I will be ITS on Thursday & Friday of this week.
-Yours, 
+FYI,  I will be ITS on Thursday & Friday of this week.  
+Yours,   
 tuie
 
 ---  
@@ -2002,7 +2004,7 @@ Dear Sensei,
 Thank you for your directions. I will make revision based on your suggestions.
 Because the committee only accept .doc file, I will convert the it to doc file.
 
-Yoroshiku Onegai Shimasu,
+Yoroshiku Onegai Shimasu,  
 bta
 
 ---  
@@ -2035,42 +2037,41 @@ PS Yesterday, we have a part for cerebrating the successful
 
 ---  
 
-Bagus Tris Atmaja <btatmaja@gmail.com>
 Wed, Feb 22, 2012, 7:40 PM
 to tuie
 
-Dear Sensei,
+Dear Sensei,  
 
 I finished my thesis defense and tomorrow the result will be announced (actually it should be announced on the last week but it was delayed because ITS file server is down). The most exhausting thing is about to fulfill the graduation requirement.
 However, I will back to Japan on tuesday 28 and I ask my friend here to process my master degree certificate.
 
 ---  
-Dear Mr. Bagus,
+Dear Mr. Bagus,  
 
 thank you for your information. I am grad that you finish your
 defense successfully and waiting for the certificate.
 
 Enjoy your conference and Surabaya until you leave.
 
-Yours,
+Yours,  
 tuie
 
 ---  
-Dear Sensei,
+Dear Sensei,  
  
 Today, it is annouced that I am granted as master degfree of Engineering Physics.
 Thak you for your guidance and see you in Kumamoto.
  
-Yoroshiku onegaishimasu,
+Yoroshiku onegaishimasu,   
 bta
 
 ---  
-Mr.  Bagus,
+Mr. Bagus,  
 
 congratulation indeed!
 Thank you for your e-mail and please enjoy your visit Malang.
 
-Yours,
+Yours,  
 tuie
 
 ---  
@@ -2080,7 +2081,7 @@ I would like to submit my JASSO final report. The current file saved as
 https://www.hicc.cs.kumamoto-u.ac.jp/uploads/private/120309141332/Bagus_JASSO.pdf
 I am waiting your suggestion for improvement before I submit to the GSST-JASSO.
 
-Yoroshiku onegasishimasu,
+Yoroshiku onegasishimasu,  
 bta
 
 ---  
