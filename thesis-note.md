@@ -2048,7 +2048,7 @@ However, I will back to Japan on tuesday 28 and I ask my friend here to process 
 ---  
 Dear Mr. Bagus,  
 
-thank you for your information. I am grad that you finish your
+thank you for your information. I am glad that you finish your
 defense successfully and waiting for the certificate.
 
 Enjoy your conference and Surabaya until you leave.
@@ -2060,7 +2060,7 @@ tuie
 Dear Sensei,  
  
 Today, it is annouced that I am granted as master degfree of Engineering Physics.
-Thak you for your guidance and see you in Kumamoto.
+Thank you for your guidance and see you in Kumamoto.
  
 Yoroshiku onegaishimasu,   
 bta
