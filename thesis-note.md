@@ -1948,11 +1948,11 @@ One comment from me at this moment is that
    are rather simple and very weak frequency dependency.)
 
 Effect of Over sampling to spatial aliasing
-- the microphone space is set to wide and wider with higher sampling frequency
-	4 cm	-->	8000 Hz
-	8 cm	--> 11025 Hz
-	12 cm	-->	22050 Hz
-	16 cm	-->	44100 Hz
+- the microphone space is set to wide and wider with higher sampling frequency  
+	4 cm	-->	8000 Hz  
+	8 cm	--> 11025 Hz  
+	12 cm	-->	22050 Hz  
+	16 cm	-->	44100 Hz  
 - proposed method : Subband Adaptive filterbank
 
 
