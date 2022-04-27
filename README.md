@@ -23,7 +23,7 @@ The algorithm is described in
 
 All files should be in the same directory. 
 The algorithm is run by calling each icabm.m and fasticabm.m. 
-For ICA algoritrh, can be directy run from worskpace and for PDCW can be obtained from the [source](http://www.cs.cmu.edu/~chanwook/MyAlgorithms/PDCW_IS2009/INTERSPEECH2009Package.zip).
+For ICA algorithm, it can be run directy from worskpace and for PDCW it can be obtained from the [source](http://www.cs.cmu.edu/~chanwook/MyAlgorithms/PDCW_IS2009/INTERSPEECH2009Package.zip).
 
 A number of parameters can be specified in those files.
 
