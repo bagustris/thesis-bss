@@ -269,7 +269,7 @@ About documents, I will try to reply until tomorrow noon, but I may
 reply tomorrow night.
 
 ---  
-
+> Dear Sensei, 
 > I uploaded my revision in link below,
 > https://www.hicc.cs.kumamoto-u.ac.jp/uploads/private/111031144457/bta_asj_kyushu_meeting_template_v3.pdf
 >
@@ -354,7 +354,7 @@ of the signal because Fig.6(b)(c) should be the recorded signals
 thus they can not be more than 1.0.
 (Also the scale should be the same for comparison.)
 
-Yours, 
+Yours,  
 tuie
 
 ---  
