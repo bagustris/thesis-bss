@@ -14,14 +14,14 @@ rand('state',1)
 y={[]};
 M=2; %number of sensors
 u=0.5;%cardioid pattern controller
-N=3;% number of signals in mixture %%% only used in mixing process
+N=3;% number of signals in mixture     %%% only used in mixing process
 th=1;  %mask threshold control (tau)?
-stopthresholdini=3000; %One source if condition number is above this value
+stopthresholdini=3000;     %One source if condition number is above this value
 TC1=0.1; %Merge finalstereo signals if correlation is above TC1
 TC2=0.03; %Merge finalstereo and enerstereo if correlation is above TC2
-numlags=1; %%% when correlation between two signals are found, how many lags should be considered?
-thepow=20; %%% tau_E
-minpow=30; %%% included to save a few calculations. 
+numlags=1;     %%% when correlation between two signals are found, how many lags should be considered?
+thepow=20;     %%% tau_E
+minpow=30;     %%% included to save a few calculations. 
 
 %evalu=0%%% source signals as input, separated signals as output
 %evalu=1%%% separation and evaluation
@@ -86,7 +86,7 @@ if evalu %%%read source signals signals
         theta(i)=all_theta(rnd);
         all_theta(rnd)=[];
     end
-    %theta*180/pi %%%% vector of direction angles
+    %theta*180/pi     %%%% vector of direction angles
 
     %two cardioids pointing in two directions varying from 1-u to 1+u,0<u<=1
     A=calcA(theta,u); %calculate elements in mixing matrix
@@ -100,7 +100,7 @@ end
 %%estimate energy stop thresholds
 powpow=10*log10((sum(X(1,:).^2)+sum(X(2,:).^2))/(2*length(X)));%power of mixture(used to determine thresholds)
 thE=powpow-thepow; %power threshold
-minpower=powpow-minpow;%do not save signals with very little power (makes cumputations faster)
+minpower=powpow-minpow;%do not save signals with very little power (makes computations faster)
 %%% create ideal masks for evaluation purpose
 if evalu
     for i=1:N
@@ -121,15 +121,15 @@ clear delete_me_again
 %%% Start algorithm
 %%%Initialize counters
 countmax=30; %the maximum iteration number (to be absolutely sure that the algorithm stops)
-finalcnt=1; %counts the number of separated output signals
-enercnt=1; %counts the number of low energy masks
-exitcnt=1; % counts the number of times the mask buffer is emptied and the remaining mask is estimated
+finalcnt=1;    %counts the number of separated output signals
+enercnt=1;     %counts the number of low energy masks
+exitcnt=1;     % counts the number of times the mask buffer is emptied and the remaining mask is estimated
 cnt=0;%number of iterations
 if dis
     disp('Starting algorithm...')
 end
 while cnt<countmax
-    sx=size(x,2); %%%%size of the signal vector. the signals are grouped in sx/2 grops. When there is no more signals left in x, the separation task is over.
+    sx=size(x,2);     %%%%size of the signal vector. the signals are grouped in sx/2 grops. When there is no more signals left in x, the separation task is over.
     cnt=cnt+1;
     % stopthreshold=max(stopthresholdini/cnt,minstopthreshold)%enable if stop threshold should change during iterations
     stopthreshold=stopthresholdini;
@@ -149,7 +149,7 @@ while cnt<countmax
         for m=1:2%%%normalization
             y{n}(m,:)=y{n}(m,:)/(10*sqrt(var(y{n}(m,:))));
         end
-        %[Aest,W,y{n},theta_est]=normmix(Aest,x{n},u); %normalization based on kmnown microphone responses
+        %[Aest,W,y{n},theta_est]=normmix(Aest,x{n},u);     %normalization based on kmnown microphone responses
         %%%normalization
 
         %%% ICA  evaluation
@@ -191,13 +191,13 @@ while cnt<countmax
                 end
                 [L,R,fmask{finalcnt}]=getfinalmask(X(1,:)',X(2,:)',y{n}(1,:)',y{n}(2,:)',mask{n},fs,1,m,NFFT,WINDOW,NOVERLAP,0);%notice that in the last step, the threshold is set to 1.
                 %str=strcat('y',int2str(m),'iter',int2str(cnt),'n',int2str(n),'final',int2str(finalcnt))
-                %wavwrite(y{n}(m,:),fs,str);%%%save files
+                %wavwrite(y{n}(m,:),fs,str);    %%%save files
                 stestr=strcat('finalstereo',int2str(finalcnt));%not scaled
                 if dis
                     disp(strcat('finalstereo',int2str(finalcnt)))
                 end
                 wavwrite([L,R],fs,stestr);
-                finalcnt=finalcnt+1;%%%save files
+                finalcnt=finalcnt+1;    %%%save files
             else %continue
                 xbuffer={xbuffer{1:end},newX{m}};
                 maskbuffer={maskbuffer{1:end},msk{m}};
@@ -211,7 +211,7 @@ while cnt<countmax
     clear mask
     mask=maskbuffer;
 
-    if(isempty(xbuffer))%%% all branches in the algorithm has ended, no more signal pairs to which ICA should be applied
+    if(isempty(xbuffer))    %%% all branches in the algorithm has ended, no more signal pairs to which ICA should be applied
         if dis
             disp('Stopping separation algorithm')
         end
@@ -242,7 +242,7 @@ while cnt<countmax
                 [L,R,remainingmask]=getremainingmask(X(1,:)',X(2,:)',fmask,fs,NFFT,WINDOW,NOVERLAP);
             end
         end
-        if lastremmask==remainingmask %%% Should not continue if background mask have not changed.
+        if lastremmask==remainingmask     %%% Should not continue if background mask have not changed.
             if dis
                 disp('No changes. Stopping separation procedure.')
             end
@@ -250,7 +250,7 @@ while cnt<countmax
             wavwrite([L,R],fs,'remaining');
             break
         else
-            lastremmask=remainingmask;%%% to see if the next background mask have changed.
+            lastremmask=remainingmask;    %%% to see if the next background mask have changed.
         end
         wavwrite([L,R],fs,'remaining');
         condi=oneortwo_cond(newX{m}(1,:),newX{m}(2,:),fs);
@@ -325,8 +325,8 @@ if evalu
     mSNRo=(mean(SNRL)+mean(SNRR))/2
     mSNRx=(mean(SNRxL)+mean(SNRxR))/2
     if length(fmask)~=N
-        flag=1;%%%not same number of segregated signals as input signals
-    elseif cflag==1%%% one of the segregated signals appears to be the same source signal.
+        flag=1;        %%%not same number of segregated signals as input signals
+    elseif cflag==1    %%% one of the segregated signals appears to be the same source signal.
         flag=1;
     else
         flag=0;
@@ -337,4 +337,5 @@ save mydata mEL mNR mSNRi mSNRo mSNR mSNRx flag
 end
 if dis
     disp('Done')
+
 end
